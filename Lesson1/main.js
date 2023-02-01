@@ -28,10 +28,10 @@ let bl2 = 16;
 console.log(bl1<bl2);
 console.log(bl1>bl2);
 
-let firstName = "Oleksii ";
-let middleName = "Oleksiiovych ";
-let lastName = "Bilokon ";
-let person = firstName + middleName + lastName;
+let firstName = "Oleksii";
+let middleName = "Oleksiiovych";
+let lastName = "Bilokon";
+let person = `${firstName} ${middleName} ${lastName}`;
 console.log(person);
 
 let a = 100;
